@@ -2,11 +2,9 @@ using UnityEngine;
 
 public class ThirdPersonCamera : MonoBehaviour
 {
-    [Header("References")]
     public Transform cameraPivot;
     public Transform player;
 
-    [Header("Settings")]
     public float mouseSensitivity = 200f;
     public float minPitch = -90f;
     public float maxPitch = 90f;
